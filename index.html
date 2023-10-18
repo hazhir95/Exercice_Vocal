@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body >
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-x9xyNv6c-o?si=A_6RqvsVQPD1oeZN?rel=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1>Exercice Vocal</h1>
+    <h2>Bienvenu a la exercice vocal. Pour le lire chaque texte, veuillez cliquer sur les blocs.</h2>
+    
+
+    <div id="container" class="container">
+        <div class="block" onclick="playAudio('audio1')">
+            <p id="text" span class="test">Document 1: Salut ! Je m'appelle Hajir et j'ai 28.
+                Je suis Iranien mais j'habite à Markham. (c'est une ville dans le région du grand Toronto)<br>
+                Ma mère, elle, habite à London. (pas Londres, c'est une ville dans l'Ontario province au Camada)<br>
+                Je viens d'une formation en informatique et je vais trouver un emploi dans le domaine de la cybersécurité.<br>
+                J'ai un ami, Philips. Lui, il travaille dans la sécurité avec moi mais il va devenir analyste commercial.
+            </p>
+        </div>
+        <div class="block" onclick="playAudio('Docunent2')">
+            <p id="text" span class="test">J'aime les films sociaux, musicaux et d'action. J'aime presque toutes sortes de musique, surtout le classique.<br>
+                Cette année, je vais obtenir mon diplôme universitaire. Ensuite je pourrais déménager à Ottawa pour travailler dans une grande entreprise. Ottawa, c'est une calme et belle ville.<br>
+            
+            </p>
+        </div>
+        <div class="block" onclick="playAudio('Docunent3')">
+            <p id="text" span class="test">Paragraph 3: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+
+
+    <!-- Audio elements (hidden) -->
+    <audio id="Docunent1" src="Docunent1.wav"></audio>
+    <audio id="Docunent2" src="Docunent2.wav"></audio>
+    <audio id="Docunento3" src="Docunent3.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
