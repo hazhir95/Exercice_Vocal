@@ -5,7 +5,7 @@ function playAudio(audioId) {
   // Pause all other audio elements
   const otherAudioElements = document.querySelectorAll('audio:not(#'+audioId+')');
   for (const otherAudioElement of otherAudioElements) {
-    otherAudioElement.pause();
+    otherAudioElement.stop();
   }
 
   // Play the selected audio element
